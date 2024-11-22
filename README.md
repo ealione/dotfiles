@@ -8,21 +8,21 @@ A comprehensive collection of my personal configurations for various development
 ### 1. WezTerm
 A powerful terminal emulator with extensive customization options.
 
-**Shortcuts Reference**: [WezTerm Keyboard Shortcuts](wezterm-shortcuts.md)
+**Shortcuts Reference**: [WezTerm Keyboard Shortcuts](dec/wezterm-shortcuts.md)
 
 ### 2. NeoVim
 Highly extensible text editor for developers.
 
-**Shortcuts Reference**: [NeoVim Keyboard Shortcuts](nvim-shortcuts.md)
+**Shortcuts Reference**: [NeoVim Keyboard Shortcuts](dec/nvim-shortcuts.md)
 
 ## Detailed Shortcut References
 
 | Tool | Shortcut Documentation |
 |------|------------------------|
-| WezTerm | [Comprehensive WezTerm Shortcuts](wezterm-shortcuts.md) |
-| NeoVim | [Complete NeoVim Keyboard Shortcuts](nvim-shortcuts.md) |
-| Tmux | [Tmux Navigation & Control](tmux-shortcuts.md) |
-| Zellij | [Shell & Terminal Shortcuts](zellij-shortcuts.md) |
+| WezTerm | [Comprehensive WezTerm Shortcuts](dec/wezterm-shortcuts.md) |
+| NeoVim | [Complete NeoVim Keyboard Shortcuts](dec/nvim-shortcuts.md) |
+| Tmux | [Tmux Navigation & Control](dec/tmux-shortcuts.md) |
+| Zellij | [Shell & Terminal Shortcuts](dec/zellij-shortcuts.md) |
 
 ## Setup
 
