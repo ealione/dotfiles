@@ -37,6 +37,18 @@ git clone https://github.com/ealione/dotfiles.git
 cp -a ./{dotfile} ~/.conf/
 ```
 
+For gnome terminal profiles you can export and backup your existing profiles:
+
+```bash
+$ dconf dump /org/gnome/terminal/legacy/profiles:/ > gnome-terminal-profiles.dconf
+```
+
+and load new ones:
+
+```bash
+$ dconf load /org/gnome/terminal/legacy/profiles:/ < gnome-terminal-profiles.dconf
+```
+
 ## Customization
 Feel free to fork and adapt these configurations to your workflow.
 
