@@ -24,6 +24,9 @@ opt.cmdheight = 1
 opt.scrolloff = 10
 opt.completeopt = "menuone,noinsert,noselect"
 
+-- disable nvim intro
+opt.shortmess:append "sI"
+
 -- Behaviour
 opt.hidden = true
 opt.errorbells = false
