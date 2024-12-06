@@ -1,27 +1,40 @@
 # NeoVim Keyboard Shortcuts Reference
 
+## Insert Mode Navigation
+- `Ctrl + B`: Move to beginning of line
+- `Ctrl + E`: Move to end of line
+- `Ctrl + H`: Move left
+- `Ctrl + L`: Move right
+- `Ctrl + J`: Move down
+- `Ctrl + K`: Move up
+
 ## Buffer Navigation
 - `<leader>bn`: Next buffer
 - `<leader>bp`: Previous buffer
 - `<leader>bb`: Switch to other buffer
-- `<leader>```: Switch to other buffer
+- ``` ` ``` (backtick): Switch to other buffer
+- `Tab`: Go to next buffer
+- `Shift + Tab`: Go to previous buffer
+- `<leader>x`: Close current buffer
 
 ## File/Directory Navigation
+- `Ctrl + N`: Toggle NvimTree
 - `<leader>m`: Focus NvimTree
 - `<leader>e`: Toggle NvimTree
 
 ## Window/Pane Navigation
 ### Normal Mode
-- `Ctrl + H`: Navigate to left window
-- `Ctrl + J`: Navigate to down window
-- `Ctrl + K`: Navigate to up window
-- `Ctrl + L`: Navigate to right window
+- `Ctrl + H`: Switch window left
+- `Ctrl + J`: Switch window down
+- `Ctrl + K`: Switch window up
+- `Ctrl + L`: Switch window right
 
 ### Terminal Mode
-- `Ctrl + H`: Navigate to left window
-- `Ctrl + J`: Navigate to down window
-- `Ctrl + K`: Navigate to up window
-- `Ctrl + L`: Navigate to right window
+- `Ctrl + H`: Switch window left
+- `Ctrl + J`: Switch window down
+- `Ctrl + K`: Switch window up
+- `Ctrl + L`: Switch window right
+- `Ctrl + X`: Escape terminal mode
 
 ### Tmux Integration
 - `Ctrl + H`: Navigate left (Tmux-aware)
@@ -33,14 +46,24 @@
 - `<leader>sv`: Split window vertically
 - `<leader>sh`: Split window horizontally
 
+## File Operations
+- `<leader>b`: Create new buffer
+- `<leader>pa`: Show full file path
+
+## Number Line Toggles
+- `<leader>n`: Toggle line numbers
+- `<leader>rn`: Toggle relative line numbers
+
 ## Indentation
 - `<`: Shift selected text left in visual mode
 - `>`: Shift selected text right in visual mode
 
-## File Path
-- `<leader>pa`: Show full file path
+## Editing
+- `Ctrl + S`: Save file
+- `Ctrl + C`: Copy entire file
+- `Esc`: Clear highlights
 
-## Zen Mode
+## Zen Mode (TZ Plugin)
 - `<leader>zn`: Narrow mode (normal and visual)
 - `<leader>sm`: Focus mode
 - `<leader>zm`: Minimalist mode
@@ -50,16 +73,26 @@
 - `Ctrl + /`: Toggle comment (normal mode)
 - `Ctrl + /`: Toggle comment (visual mode)
 
-## Additional Useful NeoVim Shortcuts
+## Terminal
+- `<leader>h`: New horizontal terminal
+- `<leader>v`: New vertical terminal
+- `Alt + V`: Toggle vertical terminal
+- `Alt + H`: Toggle horizontal terminal
+- `Alt + I`: Toggle floating terminal
 
-### General Editing
-- `dd`: Delete current line
-- `yy`: Yank (copy) current line
-- `p`: Paste after cursor
-- `P`: Paste before cursor
-- `u`: Undo
-- `Ctrl + r`: Redo
+## Telescope (Fuzzy Finder)
+- `<leader>fw`: Live grep
+- `<leader>ff`: Find files
+- `<leader>fb`: Find buffers
 
+## Formatting
+- `<leader>fm`: Format file
+
+## WhichKey
+- `<leader>wK`: Show all keymaps
+- `<leader>wk`: Lookup specific keymap
+
+## Additional General Vim Shortcuts
 ### Text Navigation
 - `w`: Move forward by word
 - `b`: Move backward by word
@@ -73,6 +106,14 @@
 - `V`: Enter visual line mode
 - `Ctrl + v`: Enter visual block mode
 
+### Editing
+- `dd`: Delete current line
+- `yy`: Yank (copy) current line
+- `p`: Paste after cursor
+- `P`: Paste before cursor
+- `u`: Undo
+- `Ctrl + r`: Redo
+
 ### Search and Replace
 - `/`: Search forward
 - `?`: Search backward
@@ -80,49 +121,9 @@
 - `N`: Previous search result
 - `:%s/old/new/g`: Replace all occurrences in file
 
-### Splits and Tabs
-- `Ctrl + w + v`: Create vertical split
-- `Ctrl + w + s`: Create horizontal split
-- `Ctrl + w + q`: Close current split
-- `gt`: Next tab
-- `gT`: Previous tab
-
-### Code Editing
-- `>>`: Indent line
-- `<<`: Unindent line
-- `==`: Auto-indent line
-
 ### Marks and Jumps
 - `ma`: Set mark 'a'
 - `` `a ``: Jump to mark 'a'
 - `''`: Jump to last edit position
 
-### Macros
-- `qa`: Start recording macro in register 'a'
-- `q`: Stop recording
-- `@a`: Play macro from register 'a'
-
-### Advanced Movement
-- `%`: Jump to matching bracket
-- `*`: Search for word under cursor
-- `#`: Reverse search for word under cursor
-
-## Plugin-Specific Shortcuts
-Note: Actual shortcuts may vary based on installed plugins
-
-- LSP Shortcuts
-  - `gd`: Go to definition
-  - `gr`: Show references
-  - `K`: Show hover information
-
-- Telescope (Fuzzy Finder)
-  - `<leader>ff`: Find files
-  - `<leader>fg`: Live grep
-  - `<leader>fb`: Buffer search
-
-- Git Integration
-  - `<leader>gs`: Git status
-  - `<leader>gc`: Git commit
-  - `<leader>gp`: Git push
-
-Remember that many of these shortcuts can be customized in your NeoVim configuration.
+Note: Many of these shortcuts can be customized in your NeoVim configuration. Always refer to your specific setup.
