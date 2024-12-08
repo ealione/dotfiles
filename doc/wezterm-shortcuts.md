@@ -78,11 +78,11 @@
 - `Super + Ctrl + U`: Quick select and open URLs
 
 ## Session Management (using resurrect plugin)
-- `Super + Alt + W`: Save workspace state
-- `Super + Alt + Shift + W`: Save window state
-- `Super + Alt + Shift + T`: Save tab state
-- `Super + Alt + Shift + S`: Save workspace and window state
-- `Super + Alt + Shift + R`: Fuzzy load saved session
+- `Super + Shift + W`: Save workspace state
+- `Super + Shift + Shift + W`: Save window state
+- `Super + Shift + Shift + T`: Save tab state
+- `Super + Shift + Shift + S`: Save workspace and window state
+- `Super + Shift + Shift + R`: Fuzzy load saved session
 
 ## Leader Key Modes
 ### Font Resizing (`Leader + F`)
