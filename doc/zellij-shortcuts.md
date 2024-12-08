@@ -43,6 +43,8 @@
 - `n`: New Tab
 - `x`: Close Tab
 - `s`: Toggle Active Sync Tab
+- `]`: Breake Pane Right
+- `[`: Breake Pane Left
 - `1-9`: Go to Specific Tab (1-9)
 - `Tab`: Toggle Tab
 - `r`: Rename Tab
