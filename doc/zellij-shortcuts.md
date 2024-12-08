@@ -85,6 +85,7 @@
 
 ## Session Mode
 - `d`: Detach
+- `w`: Session Manager
 
 ## Tmux Mode
 - `"`: New Pane Down
