@@ -101,6 +101,19 @@
 - `gg`: Go to first line
 - `G`: Go to last line
 
+### Moving Between Lines
+#### Page up and down
+- `ctrl + b` to move a page screen back or “up”
+- `ctrl + f` to move a page screen front or “down”
+- `ctrl + u` to move a ½ page screen up
+- `ctrl + d` to move a ½ page screen down
+- `ctrl + y` to move the screen _up_ one line
+- `ctrl + e` to move the screen _down_ one line
+- `z + z` to move the current line to the _center_ of the screen
+- `z + t` to move the current line to the _top_ of the screen
+- `z + b` to move the current line to the _bottom_ of the screen
+
+
 ### Visual Mode
 - `v`: Enter visual mode
 - `V`: Enter visual line mode
