@@ -92,6 +92,18 @@
 - `<leader>wK`: Show all keymaps
 - `<leader>wk`: Lookup specific keymap
 
+## LSP Navigation
+- <leader>fd: Go to definition (Lspsaga finder)
+- <leader>gd: Peak definition
+- <leader>gD: Go to definition
+- <leader>ca: See available code actions
+- <leader>rn: Smart rename
+- <leader>D: Show diagnostics for line
+- <leader>d: Show diagnostics for cursor
+- <leader>pd: Jump to previous diagnostic in buffer
+- <leader>nd: Jump to next diagnostic in buffer
+- K: Show documentation for what is under cursor
+
 ## Additional General Vim Shortcuts
 ### Text Navigation
 - `w`: Move forward by word
