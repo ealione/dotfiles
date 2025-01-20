@@ -105,5 +105,3 @@
 ## Additional Notes
 - Most modes can be exited by pressing `Enter`, `Space`, or `Esc`
 - `Ctrl + g` typically locks/unlocks the current mode
-- Customize these shortcuts in your Zellij configuration file
-
